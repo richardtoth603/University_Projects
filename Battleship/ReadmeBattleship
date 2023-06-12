@@ -1,0 +1,5 @@
+This project represents a simple Battleship game implemented in Python using layered architecture, made as an assignment for the Fundamentals of Programming subject in the first semester during my studies at UBB.
+
+The projected is mainly divided into a UI layer and a Game layer. The UI layer represents a simple UI which prints the board on the console. There it also reads the player's commands.
+
+The Game layer contains a gameboard file and a game file. The gameboard manages, as the name suggests, information related to the board, whereas the game file contains code which describes the game manager. The main focus in this file is the code for the computer Player. The computer randomly targets places on the board until it hits something. When it hits something, the computer targets spaces adjacent to the first hit, until it finds its second hit. After the second hit, the rest is easy, as the final location is clear.
