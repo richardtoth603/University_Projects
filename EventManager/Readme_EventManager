@@ -1,0 +1,5 @@
+This project represents an Event Manager, with an administrator and a user mode, implemented in C++ using object-oriented programming.
+
+There are three main layers: the UI (simple, console UI), the service layer and the repository. Each of them have an implementation for the administrator mode and the user mode.
+
+The main focus of this project was on the repository, implemented using polymorphism to separate the types of repository. The user selects the type of repository they want to use (csv or html). The program also uses a text file repository for the administrator mode.
